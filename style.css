@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Freight-BigBook';
+    src: url('fonts/Freight-BigBook.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TradeGothicLH-Extended';
+    src: url('fonts/TradeGothicLH-Extended.woff') format('woff');
+}
+
+header { 
+    background-image: url('imagens/home-social-pt.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav {
+    padding: 10px;
+    background-color: #06214D;
+    text-align: center;
+}
+
+nav > a {
+    font-family: TradeGothicLH-Extended;
+    font-size: .9em;
+    padding: 10px;
+    text-decoration: none;
+    color: #a68568a4;
+    font-weight: lighter;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.151);
+}
+
+nav > a:hover {
+    color: white;
+    transition: .5s;
+    font-size: 1.1em;
+}
+
+nav > img {
+    display: block; /* Necessário para usar margin: auto */
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+}
+
+.main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Freight-BigBook;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12em;
+    font-weight: lighter;
+    text-shadow: 
+                2px 2px 0 #A58362, /* Sombras ao redor do texto */
+                -2px -2px 0 #A58362,
+                2px -2px 0 #A58362,
+                -2px 2px 0 #A58362;
+}
+
+#portfolio h2 {
+    font-family: Freight-BigBook;
+    color: #06214D;
+    text-align: center;
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+#portfolio p{
+    font-family: TradeGothicLH-Extended;
+    color: #4B575C;
+    text-align: center;
+    font-size: 1.2em;
+    text-indent: 30px;
+    margin: 15px 0px;
+    line-height: 2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+picture img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#douro {
+    background-image: url('imagens/CALEM_Vista_10cr_.jpg');
+    width: 100%;
+    height: 100vh; /* Altura de 100% da viewport */
+    background-size: cover; /* Faz com que a imagem cubra todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+#douro h1 {
+    color: #89939E;
+}
+
+#douro h2 {
+    font-family: Freight-BigBook;
+    color: #ffffff;
+    text-align: left;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+#douro p{
+    font-family: TradeGothicLH-Extended;
+    color: #CED4D8;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-bottom: 100px;
+}
+
+.mapa img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+img.pequena {
+    max-width: 350px;
+    width: 100%;
+}
+
+img.pequena2 {
+    width: 100%;
+}
+
+section .history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .history h3{
+    font-family: Freight-BigBook;
+    color: #06214D;
+    font-size: 2.7em;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-weight: lighter;
+    white-space: pre-wrap;
+}
+
+section h2{
+    font-family: Freight-BigBook;
+    color: #06214D;
+    font-size: 12em;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -160px;
+    margin-bottom: 100px;
+}
+
+section .history p{
+    font-family: TradeGothicLH-Extended;
+    color: #4B575C;
+    white-space: pre-wrap;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+#wine-advice {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#wine-advice h3 {
+    font-family: Freight-BigBook;
+    font-weight: 600;
+    color: #06214D;
+    font-size: 4em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    font-family: TradeGothicLH-Extended;
+    background-color: #06214D;
+    color: #ffffff;
+    border: 3px solid;
+    border-color: #ffffff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+form button:hover {
+    border-color: #A58362;
+    transition-duration: .8s;
+}
+
+
+
+input:focus, textarea:focus {
+    outline-color: #A58362;
+}
+
+.main img {
+    text-align: center; /* Centraliza elementos inline */
+}
+
+.main img.logo {
+    display: block; /* Torna a imagem um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 150px;
+}
+
+footer{
+    background-color: #06214D;
+    color: #ffffff;  
+    text-align: center;
+    margin-top: 20px;
+}
+footer > p{
+    font-family: TradeGothicLH-Extended;
+    font-size: .9em;
+    padding: 5px;
+    font-weight: lighter;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+footer > p > a:hover{
+    color: #A58362;
+    transition-duration: .8s;
+}
