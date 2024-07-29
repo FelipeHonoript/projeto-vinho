@@ -108,9 +108,7 @@ picture img {
     background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
-#douro h1 {
-    color: #89939E;
-}
+
 
 #douro h2 {
     font-family: Freight-BigBook;
@@ -118,6 +116,7 @@ picture img {
     text-align: left;
     font-size: 2em;
     font-weight: lighter;
+    padding-top: 50px;
 }
 
 #douro p{
