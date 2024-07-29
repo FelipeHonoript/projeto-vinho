@@ -67,10 +67,10 @@ h1 {
     font-size: 12em;
     font-weight: lighter;
     text-shadow: 
-                2px 2px 0 #A58362, /* Sombras ao redor do texto */
-                -2px -2px 0 #A58362,
-                2px -2px 0 #A58362,
-                -2px 2px 0 #A58362;
+                2px 2px 0 #bd9c7b, /* Sombras ao redor do texto */
+                -2px -2px 0 #bd9c7b,
+                2px -2px 0 #bd9c7b,
+                -2px 2px 0 #bd9c7b;
 }
 
 #portfolio h2 {
